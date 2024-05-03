@@ -26,5 +26,8 @@
   "homepage": "https://github.com/dknieriem/site-main#readme",
   "dependencies": {
     "tailwindcss": "^3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
   }
 }
