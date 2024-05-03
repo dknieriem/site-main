@@ -1,0 +1,117 @@
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 700;
+    font-style: italic;
+    font-stretch: expanded;
+    src: local("Office Code Pro")
+       , url("OfficeCodePro-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: expanded;
+    src: local("Office Code Pro")
+       , url("OfficeCodePro-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 300;
+    font-style: italic;
+    font-stretch: expanded;
+    src: local("Office Code Pro")
+       , url("OfficeCodePro-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: expanded;
+    src: local("Office Code Pro")
+       , url("OfficeCodePro-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 500;
+    font-style: italic;
+    font-stretch: expanded;
+    src: local("Office Code Pro")
+       , url("OfficeCodePro-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: expanded;
+    src: local("Office Code Pro")
+       , url("OfficeCodePro-normal.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: expanded;
+    src: local("Office Code Pro")
+       , url("OfficeCodePro-normalItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 300;
+    font-style: normal;
+    
+    src: local("Office Code Pro")
+       , url("iosevka-etoile-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 300;
+    font-style: italic;
+    
+    src: local("Office Code Pro")
+       , url("iosevka-etoile-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 500;
+    font-style: normal;
+    
+    src: local("Office Code Pro")
+       , url("iosevka-etoile-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 500;
+    font-style: italic;
+    
+    src: local("Office Code Pro")
+       , url("iosevka-etoile-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 400;
+    font-style: normal;
+    
+    src: local("Office Code Pro")
+       , url("iosevka-etoile-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Office Code Pro";
+    font-weight: 400;
+    font-style: italic;
+    
+    src: local("Office Code Pro")
+       , url("iosevka-etoile-RegularItalic.woff2") format("woff2");
+}

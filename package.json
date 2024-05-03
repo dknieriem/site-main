@@ -1,0 +1,30 @@
+{
+  "name": "site-main",
+  "version": "1.0.0",
+  "description": "Golang site using tailwind and maybe alpine with microservices for async interactivity",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build -o static/css/tailwind.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tailwindcss build -o static/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dknieriem/site-main.git"
+  },
+  "keywords": [
+    "golang",
+    "js",
+    "tailwindcss",
+    "alpine"
+  ],
+  "author": "Don Knieriem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dknieriem/site-main/issues"
+  },
+  "homepage": "https://github.com/dknieriem/site-main#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}

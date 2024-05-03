@@ -29,6 +29,8 @@ func main() {
 			r.Get("/", GetPage) // GET /pages/1234
 		})
 	})
+	fs := http.FileServer(http.Dir("static"))
+	router.Handle("/static/*", http.StripPrefix("/static/", fs))
 	err = http.ListenAndServe(":8005", router)
 	catch(err)
 }
