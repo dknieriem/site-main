@@ -31,6 +31,7 @@ func main() {
 	})
 	fs := http.FileServer(http.Dir("static"))
 	router.Handle("/static/*", http.StripPrefix("/static/", fs))
+	router.Handle("/favicon.ico", fs)
 	err = http.ListenAndServe(":8005", router)
 	catch(err)
 }
@@ -60,14 +61,14 @@ func GetHomepage(w http.ResponseWriter, r *http.Request) {
 	homepage, err := fileGetHomepage()
 	catch(err)
 
-	t, _ := template.ParseFiles("templates/html.tmpl", "templates/homepage.tmpl")
+	t, _ := template.ParseFiles("templates/html.go.tmpl", "templates/homepage.go.tmpl")
 	err = t.Execute(w, homepage)
 	catch(err)
 }
 
 func GetPage(w http.ResponseWriter, r *http.Request) {
 	page := r.Context().Value("page").(*Page)
-	t, _ := template.ParseFiles("templates/html.tmpl", "templates/page.tmpl")
+	t, _ := template.ParseFiles("templates/html.go.tmpl", "templates/page.go.tmpl")
 	err := t.Execute(w, page)
 	catch(err)
 }

@@ -4,7 +4,7 @@
   "description": "Golang site using tailwind and maybe alpine with microservices for async interactivity",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss build -o static/css/tailwind.css",
+    "build": "tailwindcss build -o static/css/tailwind.css && go build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "tailwindcss build -o static/css/tailwind.css --watch"
   },

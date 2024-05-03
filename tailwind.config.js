@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./templates/*.tmpl"],
+  content: ["./templates/*.go.tmpl"],
+  darkMode: 'selector',
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Poppins", "sans-serif"],
+        sans: ["Open Sans", "sans-serif"],
         mono: ["Office Code Pro", "monospace"],
       }
     },
